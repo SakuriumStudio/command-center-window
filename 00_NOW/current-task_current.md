@@ -2,6 +2,13 @@
 
 更新日: 2026-03-15
 
+## 現在の前提
+
+- 入院予定日は `2026-03-17`
+- `COMMAND_CENTER` = 運用の正本
+- `X:\SakuriumStudio_Assets` = 実データの正本
+- `command-center-window` = 共有窓 / 参照窓
+
 ## 結論
 
 今回の主眼は、入院前に `COMMAND_CENTER` / `SakuriumStudio_Assets` / `GitHub 共有窓` の構成と運用ルールを固定することです。
@@ -21,8 +28,8 @@
 - 枝の作り込み
 - タブレット周りの本格着手
 
-## 今の完成ライン
+## 今回の完成条件
 
-- 正本の境界が文書上で揃っている
-- `today_current` で今の主題が分かる
-- GitHub 共有窓の4ファイル運用が固定されている
+- 入口がある
+- `today_current.md` で今の主題が分かる
+- 正本の境界が分かる

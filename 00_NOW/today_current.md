@@ -2,6 +2,19 @@
 
 更新日: 2026-03-15
 
+## 現在の前提
+
+- 入院予定日は `2026-03-17`
+- `COMMAND_CENTER` = 運用の正本
+- `X:\SakuriumStudio_Assets` = 実データの正本
+- `command-center-window` = 共有窓 / 参照窓
+
+## 今回の完成条件
+
+- 入口がある
+- `today_current.md` で今の主題が分かる
+- 正本の境界が分かる
+
 ## 今の主軸
 
 - `COMMAND_CENTER` / `SakuriumStudio_Assets` / `GitHub 共有窓` の構成を固定する
