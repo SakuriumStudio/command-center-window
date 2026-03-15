@@ -16,6 +16,8 @@
 
 ## 前提
 
+- 入院予定日は `2026-03-17`
+
 - ルート構成は以下で固定する
 
 ```text
@@ -23,9 +25,10 @@ X:\COMMAND_CENTER
 X:\SakuriumStudio_Assets
 ```
 
-- `COMMAND_CENTER` は運用側
-- `SakuriumStudio_Assets` は実データ側
+- `COMMAND_CENTER` は運用の正本
+- `SakuriumStudio_Assets` は実データの正本
 - `G:` は保管・履歴・再利用側
+- `command-center-window` は共有窓 / 参照窓
 - 今回は見た目の完成度より、迷わず再開できることを優先する
 
 ## 最小骨組み
