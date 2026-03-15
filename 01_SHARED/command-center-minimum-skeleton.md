@@ -79,7 +79,7 @@ X:\COMMAND_CENTER
 
 ### `03_RUNBOOKS\`
 - 繰り返し使う手順書
-- 今回は最低限、タブレットと接続系だけでよい
+- 今回はタブレットと接続系の入口だけ置けばよい
 - 例:
   - `tablet_minimum_setup.md`
   - `remote_access_notes.md`
@@ -104,11 +104,11 @@ X:\COMMAND_CENTER
 - `X:\COMMAND_CENTER\AGENTS.md`
 - `X:\COMMAND_CENTER\00_DASHBOARD\today.md`
 - `X:\COMMAND_CENTER\00_DASHBOARD\quick_links.md`
-- `X:\COMMAND_CENTER\03_RUNBOOKS\tablet_minimum_setup.md`
 - `X:\COMMAND_CENTER\_codex\current-task.md`
 
 ### 余力があれば
 
+- `X:\COMMAND_CENTER\03_RUNBOOKS\tablet_minimum_setup.md`
 - `X:\COMMAND_CENTER\03_RUNBOOKS\remote_access_notes.md`
 - `X:\COMMAND_CENTER\04_CONNECTIONS\`
 - `X:\COMMAND_CENTER\05_STAGING\`
