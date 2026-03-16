@@ -1,6 +1,6 @@
 # today current
 
-更新日: 2026-03-15
+更新日: 2026-03-16
 
 ## 現在の前提
 
@@ -17,23 +17,24 @@
 
 ## 今の主軸
 
-- `COMMAND_CENTER` / `SakuriumStudio_Assets` / `GitHub 共有窓` の構成を固定する
-- 正本境界を文書上で揃える
+- 入院前の最終的な止めどころを固定する
+- `Sunshine / Moonlight` の到達点を共有窓へ反映する
+- `外部WOL` の現実性を兄弟と相談できる形にする
 
 ## 現在地
 
-- `COMMAND_CENTER` の入口ファイルは作成済み
-- GitHub 共有窓は作成済み
-- タブレット周りは今回は保留でよい
+- `COMMAND_CENTER` と GitHub 共有窓は固定済み
+- `Sunshine` は Web UI 到達済み
+- `Moonlight` は同一LANで `Desktop` 接続済み
+- `外部WOL` は前提確認まで、設定反映は未着手
 
 ## 次に見るもの
 
-- `current-task_current.md`
+- `01_SHARED/remote-access-wol-assessment.md`
 
 ## 今回やらないこと
 
-- archive の本格運用
-- ツール本体の引っ越し
-- X 全体の棚卸し
-- 枝の作り込み
-- タブレット周りの本格着手
+- 病院Wi-Fiの実地確認
+- テザリング長時間運用の実地確認
+- Sunshine の更新
+- 外部WOLの本番導入

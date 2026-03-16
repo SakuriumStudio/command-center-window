@@ -1,6 +1,6 @@
 # COMMAND_CENTER GitHub 共有窓
 
-更新日: 2026-03-15
+更新日: 2026-03-16
 
 ## この場所の役割
 
@@ -29,6 +29,7 @@
 1. `00_NOW/today_current.md`
 2. `00_NOW/current-task_current.md`
 3. `01_SHARED/command-center-minimum-skeleton.md`
+4. `01_SHARED/remote-access-wol-assessment.md`
 
 ## 今回の原則
 
