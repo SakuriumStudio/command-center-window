@@ -11,24 +11,23 @@
 
 ## 結論
 
-今回の主眼は、`COMMAND_CENTER` 側の止めどころを固定し、入院中の本線を `ブラウザ中心運用` に寄せる判断までを固めることです。
+今回の主眼は、`hospital-browser-ops` の入口を最小構成で作り、病院中の本線を `GitHub共有窓 + ブラウザ運用` として迷わず使える形にすることです。
 
 ## 今回の優先順位
 
-1. 入院前の止めどころを固定する
-2. `Sunshine / Moonlight` を保険枠として位置づける
-3. `外部WOL` は今回は採用しない判断に寄せる
-4. 次の `Android / ブラウザ案件` を別プロジェクトに分ける
+1. 病院ブラウザ入口の実体ファイルを最小構成で置く
+2. 病院側の更新先を `hospital_status_current.md` 1 本に固定する
+3. `Sunshine / Moonlight` を保険枠として位置づける
+4. `外部WOL` は今回は保留のまま据え置く
 
 ## 今回やらないこと
 
 - 病院Wi-Fiの実地確認
 - テザリング長時間運用の実地確認
-- Sunshine の更新
+- `Sunshine / Moonlight` の本線運用化
 - ルーター設定の本番反映
 - 外部WOLの本番導入
-- `Sunshine / Moonlight` の本線運用化
-- Android / ブラウザ案件の実作業
+- 入口以外の資料の大規模整理
 
 ## 今回の完成条件
 
@@ -38,16 +37,15 @@
 
 ## 現在地
 
-- `Sunshine` の Web UI には入れる
-- `Moonlight` は同一LANで `Desktop` 接続まで確認済み
-- `scrcpy` は USB デバッグ再許可で再接続確認済み
-- GitHub 専用プロフィールは作成・ショートカット化・起動確認済み
-- `povo` の物理SIMは申込完了、到着待ち
-- 入院中の本線は `GitHub共有窓 + ブラウザ運用` に寄せる
+- private 側の plan と closeout は固定済み
+- `hospital_status_current.md` を病院側更新先として使う前提
+- `browser_links_current.md` を最小リンク集として使う前提
+- `browser_emergency_backup.md` を保険導線として分離する
+- 入院中の本線は `GitHub共有窓 + ブラウザ運用`
 - `Sunshine / Moonlight` は条件が良い時だけ使う保険枠
-- `外部WOL` は Windows 側とルーター側の前提確認までは完了したが、今回は採用しない
+- `外部WOL` は Windows 側とルーター側の前提確認までは完了したが、今回は保留
 
 ## 今日の止めどころ
 
-- `COMMAND_CENTER` 側はここで一旦締める
-- 次は `Android / ブラウザ案件` を別プロジェクトとして進める
+- 入口に置く実体を最小構成で作る
+- 兄弟側に渡す材料をこの構成で揃える

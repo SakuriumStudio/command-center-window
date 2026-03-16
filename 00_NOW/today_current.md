@@ -17,31 +17,28 @@
 
 ## 今の主軸
 
-- `COMMAND_CENTER` 側の止めどころを固定する
-- 入院中の本線を `ブラウザ中心運用` に寄せる
-- `Sunshine / Moonlight` は保険枠に下げる
+- `hospital-browser-ops` の入口を最小構成で固める
+- 病院中の本線を `GitHub共有窓 + ブラウザ運用` として回せる形に寄せる
+- 病院側の更新先を `hospital_status_current.md` 1 本に固定する
 
 ## 現在地
 
-- `COMMAND_CENTER` と GitHub 共有窓は固定済み
-- `Sunshine` は Web UI 到達済み
-- `Moonlight` は同一LANで `Desktop` 接続済み
-- `scrcpy` は USB デバッグ再許可で再接続済み
-- GitHub 専用プロフィールは作成・ショートカット化・起動確認まで完了
-- `povo` の物理SIMは申込完了、到着待ち
-- 入院中の本線は `GitHub共有窓 + ブラウザ運用`
+- `hospital-browser-ops` の plan は private 側で固定済み
+- 共有窓側の実入口として `hospital_status_current.md` を追加する
+- 必要リンク集は `browser_links_current.md` に絞る
+- 緊急時導線は `browser_emergency_backup.md` に分ける
 - `Sunshine / Moonlight` は条件が良い時だけ使う保険枠
-- `外部WOL` は今回は採用しない
+- `外部WOL` は今回は保留
 
 ## 次に見るもの
 
-- `01_SHARED/pre-hospital-stopline-20260316.md`
+- `00_NOW/hospital_status_current.md`
+- `01_SHARED/browser_links_current.md`
+- `01_SHARED/browser_emergency_backup.md`
 
 ## 今回やらないこと
 
 - 病院Wi-Fiの実地確認
 - テザリング長時間運用の実地確認
-- Sunshine の更新
 - `Sunshine / Moonlight` の本線運用化
 - 外部WOLの本番導入
-- Android / ブラウザ案件の実作業

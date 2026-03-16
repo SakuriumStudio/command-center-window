@@ -27,14 +27,15 @@
 ## まず見るもの
 
 1. `00_NOW/today_current.md`
-2. `00_NOW/current-task_current.md`
-3. `01_SHARED/command-center-minimum-skeleton.md`
-4. `01_SHARED/remote-access-wol-assessment.md`
+2. `00_NOW/hospital_status_current.md`
+3. `00_NOW/current-task_current.md`
+4. `01_SHARED/browser_links_current.md`
+5. `01_SHARED/browser_emergency_backup.md`
 
 ## 今回の原則
 
 - 実データ本体はここに置かない
 - 理想完成より、戻れる状態を優先する
 - 今は枝を育てすぎない
-- 迷ったら、ファイルを増やす前に `today_current.md` を更新する
+- 迷ったら、まず `hospital_status_current.md` に状態を残す
 - `today_current.md` と `current-task_current.md` は固定名で運用する
