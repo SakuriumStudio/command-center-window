@@ -19,18 +19,21 @@
 
 - 入院前の最終的な止めどころを固定する
 - `Sunshine / Moonlight` の到達点を共有窓へ反映する
-- `外部WOL` の現実性を兄弟と相談できる形にする
+- `外部WOL` の現実性と、今日どこで止めるかを兄弟と相談できる形にする
 
 ## 現在地
 
 - `COMMAND_CENTER` と GitHub 共有窓は固定済み
 - `Sunshine` は Web UI 到達済み
 - `Moonlight` は同一LANで `Desktop` 接続済み
+- `scrcpy` は USB デバッグ再許可で再接続済み
+- GitHub 専用プロフィールは作成・ショートカット化・起動確認まで完了
+- `povo` の物理SIMは申込完了、到着待ち
 - `外部WOL` は前提確認まで、設定反映は未着手
 
 ## 次に見るもの
 
-- `01_SHARED/remote-access-wol-assessment.md`
+- `01_SHARED/pre-hospital-stopline-20260316.md`
 
 ## 今回やらないこと
 
