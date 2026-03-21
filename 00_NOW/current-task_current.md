@@ -1,51 +1,45 @@
 # current task current
 
-更新日: 2026-03-16
+更新日: 2026-03-21
 
 ## 現在の前提
 
-- 入院予定日は `2026-03-17`
 - `COMMAND_CENTER` = 運用の正本
-- `X:\SakuriumStudio_Assets` = 実データの正本
+- `SakuriumStudio_Assets` = 実データの正本
 - `command-center-window` = 共有窓 / 参照窓
 
 ## 結論
 
-今回の主眼は、`hospital-browser-ops` の入口を最小構成で作り、病院中の本線を `GitHub共有窓 + ブラウザ運用` として迷わず使える形にすることです。
+今回の主眼は、`KouChansRoom` 側の `Base / Branch` 運用を共有窓で軽く追える形にしつつ、private GitHub backup を別 workstream で最小構成から始める準備を整えることです。
 
 ## 今回の優先順位
 
-1. 病院ブラウザ入口の実体ファイルを最小構成で置く
-2. 病院側の更新先を `hospital_status_current.md` 1 本に固定する
-3. `Sunshine / Moonlight` を保険枠として位置づける
-4. `外部WOL` は今回は保留のまま据え置く
+1. `Base / Branch` 運用の要約を共有窓向けに軽く置く
+2. 共有窓に載せるものと直接共有へ回すものの境界を崩さない
+3. private GitHub backup の phase 1 を別 workstream として切り出す
+4. 必要なら兄弟から運用補正をもらう
 
 ## 今回やらないこと
 
-- 病院Wi-Fiの実地確認
-- テザリング長時間運用の実地確認
-- `Sunshine / Moonlight` の本線運用化
-- ルーター設定の本番反映
-- 外部WOLの本番導入
-- 入口以外の資料の大規模整理
+- GitHub を正本として扱うこと
+- ローカル前提の強い内部メモをそのまま共有窓へ出すこと
+- private GitHub backup の実データ範囲をここで一気に広げること
+- 入口以外の資料を無差別に増やすこと
 
 ## 今回の完成条件
 
-- 入口がある
-- `today_current.md` で今の主題が分かる
-- 正本の境界が分かる
+- `today_current.md` と `current-task_current.md` で今の主題が分かる
+- `Base / Branch` 運用の共有向け要約がある
+- GitHub が共有窓であることが崩れていない
 
 ## 現在地
 
-- private 側の plan と closeout は固定済み
-- `hospital_status_current.md` を病院側更新先として使う前提
-- `browser_links_current.md` を最小リンク集として使う前提
-- `browser_emergency_backup.md` を保険導線として分離する
-- 入院中の本線は `GitHub共有窓 + ブラウザ運用`
-- `Sunshine / Moonlight` は条件が良い時だけ使う保険枠
-- `外部WOL` は Windows 側とルーター側の前提確認までは完了したが、今回は保留
+- 旧本線は参照用として残し、軽い `次世代本拠地` を司令塔として使う運用が固まった
+- 実作業は `Base` から `Branch` へ出し、結果だけを正本メモへ戻す
+- 共有窓には、その要約版だけを置く方針
+- private GitHub backup は別 workstream として新しく切った
 
 ## 今日の止めどころ
 
-- 入口に置く実体を最小構成で作る
-- 兄弟側に渡す材料をこの構成で揃える
+- 共有窓に置く実体を最小構成で更新する
+- 兄弟が読める共有向け要約を 1 本用意する

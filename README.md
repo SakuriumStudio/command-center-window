@@ -1,6 +1,6 @@
 # COMMAND_CENTER GitHub 共有窓
 
-更新日: 2026-03-16
+更新日: 2026-03-21
 
 ## この場所の役割
 
@@ -15,8 +15,8 @@
 
 ## 現在の前提
 
-- 入院予定日は `2026-03-17`
-- `X:\COMMAND_CENTER` と `X:\SakuriumStudio_Assets` は並列で固定する
+- `COMMAND_CENTER` と `SakuriumStudio_Assets` は並列で固定する
+- GitHub は共有窓であり、正本の置き換えではない
 
 ## 今回の完成条件
 
@@ -27,15 +27,14 @@
 ## まず見るもの
 
 1. `00_NOW/today_current.md`
-2. `00_NOW/hospital_status_current.md`
-3. `00_NOW/current-task_current.md`
-4. `01_SHARED/browser_links_current.md`
-5. `01_SHARED/browser_emergency_backup.md`
+2. `00_NOW/current-task_current.md`
+3. `01_SHARED/kouchansroom-base-branch-ops-20260321.md`
+4. 必要に応じて `01_SHARED/` の既存資料
 
 ## 今回の原則
 
 - 実データ本体はここに置かない
 - 理想完成より、戻れる状態を優先する
 - 今は枝を育てすぎない
-- 迷ったら、まず `hospital_status_current.md` に状態を残す
+- 迷ったら、まず `today_current.md` と `current-task_current.md` を更新する
 - `today_current.md` と `current-task_current.md` は固定名で運用する
